@@ -1,0 +1,355 @@
+1. Airoli   33.9km
+2. Dronagiri   25.8km
+3. Ghansoli   36.5km
+4. Jeejamata Nagar   37.7km
+5. Jui Nagar   36.8km
+6. Kalamboli   47.4km
+7. Kamothe   47.5km
+8. Karanjade   54.4km
+9. Khalapur   79.6km
+10. Khanda Colony   49.3km
+11. Khandeshwar   48.4km
+12. Kharghar   45.0km
+13. Koperkhairane   36.1km
+14. Kutak Bandhan   48.2km
+15. Navade   48.9km
+16. Nerul   38.6km
+17. New Sector-50 Nerul   41.4km
+18. Old Panvel   50.8km
+19. Owe Village   47.0km
+20. Palm Beach   km
+21. Panvel   53.8km
+22. Petali   50.1km
+23. Roadpali   47.0km
+24. Sanpada   33.8km
+25. Seawoods   39.5km
+26. Sector-3 Ulwe   47.2km
+27. Sector-5 Kharghar   43.5km
+28. Sector-6 Kharghar   43.7km
+29. Sector-7 Kamothe   46.6km
+30. Sector-8 Kharghar   43.3km
+31. Sector-8 Ulwe   47.8km
+32. Sector-8A Airoli   33.6km
+33. Sector-9 Ulwe   48.0km
+34. Sector-12 Kamothe   47.2km
+35. Sector-13 Kharghar   44.6km
+36. Sector-16 Kharghar   45.2km
+37. Sector-16 Taloja   45.2km
+38. Sector-16 Ulwe   48.3km
+39. Sector-17 Kamothe   47.6km
+40. Sector-18 Ulwe   46.7km
+41. Sector-19 Airoli   33.9km
+42. Sector-20 Koparkhairane   36.4km
+43. Sector-20 Nerul   36.5km
+44. Sector-20 Roadpali   45.8km
+45. Sector-25 Kamothe   48.8km
+46. Sector-25 Khandeshhwar   48.8km
+47. Sector-27 Kharghar   46.6km
+48. Sector-27 Nerul   39.8km
+49. Sector-30 Belapur   40.5km
+50. Sector-34 Kharghar   48.0km
+51. Sector-34B Kharghar   47.7km
+52. Sector-35 Kamothe   47.0km
+53. Sector-35D Kharghar   48.2km
+54. Sector-35E Kharghar   47.1km
+55. Sector-35G Kharghar   47.4km
+56. Sector-50 Seawoods   39.5km
+57. Sector 2 Kharghar   42.6km
+58. Sector 2 Ulwe   46.8km
+59. Sector 3 Kharghar   41.8km
+60. Sector 5 Ulwe   46.4km
+61. Sector 6 Kamothe   46.9km
+62. Sector 7 Kharghar   42.9km
+63. Sector 8 Airoli   33.5km
+64. Sector 9 Airoli   32.9km
+65. Sector 10 Kamothe   47.2km
+66. Sector 10 Kharghar   43.8km
+67. Sector 11 Belapur   40.4km
+68. Sector 11 Kharghar   43.8km
+69. Sector 11 Koparkhairane   35.7km
+70. Sector 12 Kharghar   44.4km
+71. Sector 14 Kharghar   44.6km
+72. Sector 15 Belapur   41.7km
+73. Sector 15 Kharghar   44.2km
+74. Sector 16 Kamothe   48.1km
+75. Sector 17 Ulwe   48.0km
+76. Sector 17 Vashi   32.2km
+77. Sector 18 Kamothe   48.2km
+78. Sector 18 Kharghar   44.7km
+79. Sector 19 Kamothe   48.1km
+80. Sector 19 Kharghar   45.3km
+81. Sector 19 Ulwe   46.2km
+82. Sector 19A Nerul   38.6km
+83. Sector 20 Airoli   34.8km
+84. Sector 20 Belapur   40.4km
+85. Sector 20 Kamothe   47.3km
+86. Sector 20 Kharghar   45.1km
+87. Sector 20 Ulwe   45.0km
+88. Sector 21 Kamothe   48.0km
+89. Sector 21 Kharghar   45.1km
+90. Sector 21 Nerul   38.9km
+91. Sector 21 Ulwe   45.1km
+92. Sector 22 Kamothe   48.1km
+93. Sector 23 Ulwe   44.6km
+94. Sector 26 Vashi   35.6km
+95. Sector 28 Vashi   35.4km
+96. Sector 29 Nerul   36.9km
+97. Sector 30 Kharghar   47.0km
+98. Sector 34 Kamothe   47.4km
+99. Sector 34C Kharghar   48.2km
+100. Sector 35I Kharghar   48.1km
+101. Sector 36 Kamothe   46.7km
+102. Sector 36 Kharghar   48.1km
+103. Shilphata   45.3km
+104. Taloja   48.9km
+105. Taloja Panchanand   51.6km
+106. Ulwe   46.4km
+107. Vashi   32.3km
+108. Vichumbe   53.8km
+109. Ambedkar Nagar   15.8km
+110. Bhandup (East)   30.9km
+111. Bhandup (West)   29.8km
+112. Chandivali   26.7km
+113. Ghatkopar (East)   19.0km
+114. Ghatkopar West   22.1km
+115. Hiranandani Gardens - Powai   31.6km
+116. Jaydev Singh Nagar   28.9km
+117. Kanjur Marg (East)   26.4km
+118. Kanjur Marg (west)   27.9km
+119. Kurla (East)   16.1km
+120. Kurla (west)   20.1km
+121. LBS Marg   26.7km
+122. Mulund   32.6km
+123. Mulund (East)   32.6km
+124. Mulund (West)   32.6km
+125. Mulund Colony   32.2km
+126. Powai   30.3km
+127. Raheja Vihar   26.8km
+128. Rajiv Gandhi Nagar   26.3km
+129. Sion (East)   12.5km
+130. Sion (West)   13.1km
+131. Tilak Nagar   17.7km
+132. Vidyavihar   22.9km
+133. Vikhroli (East)   24.5km
+134. Vikhroli (West)   24.5km
+135. Bhakti Park   18.2km
+136. Byculla   7.3km
+137. Chembur   19.5km
+138. Chembur (East)   19.5km
+139. Chembur (West)   17.5km
+140. Deonar   23.3km
+141. Govandi   24.3km
+142. Lalbaug   14.4km
+143. Mazgaon   7.3km
+144. Sindhi Society Chembur   15.8km
+145. Tilak Nagar   17.7km
+146. Wadala   12.6km
+147. Wadala East   10.6km
+148. Wadala West   10.5km
+149. Agripada   4.4km
+150. Altamount Road   km
+151. Breach Candy   1.4km
+152. Churchgate   5.2km
+153. Colaba   8.9km
+154. Cuffe Parade   8.0km
+155. Dadar   8.9km
+156. Dadar (East)   8.5km
+157. Dadar (West)   8.8km
+158. Lower Parel   7.2km
+159. Mahalaxmi   3.3km
+160. Malabar Hill   2.3km
+161. Matunga   12.4km
+162. Matunga East   12.4km
+163. Matunga West   12.4km
+164. Napean Sea Road   1.9km
+165. Parel   7.2km
+166. Parmanand Wadi   8.9km
+167. Peddar Road   km
+168. Prabhadevi   7.4km
+169. Shivaji Park   9.2km
+170. Upper Worli   5.5km
+171. Worli   5.6km
+172. Bandra (East)   14.4km
+173. Bandra (West)   14.4km
+174. Bandra Kurla Complex   16.9km
+175. Gandhi Nagar   26.5km
+176. Juhu   22.8km
+177. Juhu Scheme   23.5km
+178. JVPD   23.5km
+179. Kalina   18.0km
+180. Khar   15.4km
+181. Khar West   15.4km
+182. Mahim (West)   9.5km
+183. Pali Hill   15.1km
+184. Santacruz (East)   17.8km
+185. Santacruz (West)   16.5km
+186. Vakola   17.2km
+187. Vile Parle (East)   19.3km
+188. Vile Parle (West)   22.8km
+189. Adharwadi   56.2km
+190. Ambernath   62.7km
+191. Ambivli   62.5km
+192. Asangaon   85.2km
+193. Badlapur   67.7km
+194. Badlapur (East)   67.7km
+195. Badlapur (West)   67.7km
+196. Belavali   67.4km
+197. Bhiwandi   49.8km
+198. Dombivli (East)   54.7km
+199. Dombivli (West)   58.2km
+200. Gandhar Nagar   56.8km
+201. Kalwa   40.6km
+202. Kalyan (East)   59.0km
+203. Kalyan (West)   55.3km
+204. Karjat   80.6km
+205. Katrap   67.0km
+206. Khadakpada   57.0km
+207. Kharegaon   39.0km
+208. Khopoli   87.9km
+209. Manda   km
+210. Manjarli   69.1km
+211. Neral   91.5km
+212. Nilje Gaon   50.7km
+213. Shirgaon   279km
+214. Sonivali   70.4km
+215. Sunil Nagar   55.5km
+216. Thakurli   57.4km
+217. Titwala   79.2km
+218. Ulhasnagar   60.9km
+219. Vangani   78.7km
+220. Anand Nagar   44.6km
+221. Balkum   38.9km
+222. Brahmand   41.6km
+223. Charai   35.6km
+224. Devdaya Nagar   37.1km
+225. Dhokali   38.4km
+226. Gawand Baug   38.2km
+227. G B Road   1.8km
+228. Ghodbunder Road   46.8km
+229. Hiranandani Estate   42.7km
+230. Hiranandani Meadows   39.7km
+231. Kailash Nagar   1.8km
+232. Kalher   43.3km
+233. Kalwa   40.6km
+234. Kapurbawadi   km
+235. Kasar Vadavali   43.8km
+236. Kasheli   42.8km
+237. Kavesar   43.3km
+238. Khopat   35.5km
+239. Kolshet   39.8km
+240. Kolshet Road   38.9km
+241. Kopri   32.8km
+242. Lokmanya Nagar   35.9km
+243. Louis Wadi   33.6km
+244. Majiwada   39.2km
+245. Manpada   39.5km
+246. Naupada   33.6km
+247. Owale   52.0km
+248. Panch Pakhadi   34.1km
+249. Parsik Nagar   41.2km
+250. Patlipada   40.8km
+251. Pokharan Road   38.3km
+252. Pokhran-2   37.8km
+253. Sai Nagar   27.7km
+254. Samata Nagar   35.9km
+255. Shastri Nagar   27.5km
+256. Shivai Nagar   37.0km
+257. Teen Haath Naka   34.8km
+258. Thane (East)   34.8km
+259. Thane West   40.3km
+260. Vartak Nagar   36.1km
+261. Vasant Vihar   1.8km
+262. Vrindavan   3.6km
+263. Waghbil   44.0km
+264. Wagle Estate   34.1km
+265. 4 Bunglows   24.8km
+266. 7 Bunglow   25.4km
+267. Aarey Milk Colony   31.2km
+268. Alika Nagar   32.7km
+269. Amboli   503km
+270. Andheri (East)   22.9km
+271. Andheri (West)   22.9km
+272. Asha Nagar   32.8km
+273. Azad Nagar   9.9km
+274. Borivali (East)   34.1km
+275. Borivali (West)   39.0km
+276. Chakala   21.2km
+277. Charkop   36.8km
+278. Chincholi Bunder   30.4km
+279. Dahanukar Wadi   35.0km
+280. Dahisar   39.6km
+281. Dahisar (East)   37.9km
+282. Dahisar (West)   39.5km
+283. Evershine Nagar   32.8km
+284. Film City Road   29.4km
+285. Gokuldham   29.1km
+286. Gorai   58.5km
+287. Goregaon (East)   28.9km
+288. Goregaon (West)   28.9km
+289. I C Colony   39.5km
+290. Jankalyan Nagar   35.0km
+291. Jawahar Nagar   27.9km
+292. J B Nagar   22.0km
+293. Jogeshwari (East)   23.6km
+294. Jogeshwari (West)   25.6km
+295. JVLR   29.5km
+296. Kanchpada   33.0km
+297. Kandarpada   39.8km
+298. Kandivali (East)   33.3km
+299. Kandivali (West)   33.8km
+300. Lokhandwala   28.0km
+301. Lokhandwala Township   32.6km
+302. Mahavir Nagar   31.8km
+303. Malad (East)   30.3km
+304. Malad (West)   31.0km
+305. Malvani   35.7km
+306. Marol   24.9km
+307. Mindspace   31.8km
+308. Sakinaka   22.2km
+309. Sector-8 Charkop   39.2km
+310. Sector 2 Charkop   38.7km
+311. Shastri Nagar   27.5km
+312. Shimpoli   36.0km
+313. Siddharth Nagar   762km
+314. SV Patel Nagar   26.7km
+315. Thakur Complex   32.0km
+316. Thakur Village   33.6km
+317. Veera Desai Road   26.3km
+318. Yari Road   27.4km
+319. Bevarly Park   km
+320. Bhayander (East)   44.9km
+321. Bhayander (West)   45.2km
+322. Boisar   123km
+323. Bolinj   74.2km
+324. Chandan Shanti   42.4km
+325. Ekvira Darshan   71.0km
+326. Gokul Township   77.2km
+327. Hatkesh Udhog Nagar   41.1km
+328. Kashimira   40.9km
+329. Mira Bhayandar   44.8km
+330. Mira Road   42.2km
+331. Mira Road East   42.2km
+332. Morya Nagar   70.7km
+333. Naigaon (East)   56.5km
+334. Naigaon (West)   71.4km
+335. Nalasopara (West)   72.0km
+336. Nalasopara East   66.4km
+337. Nallasopara   70.2km
+338. Nilemore   70.4km
+339. Palghar   120km
+340. Panchamratna Park   44.2km
+341. Poonam Gardens   42.4km
+342. Poonam Sagar Complex   41.7km
+343. Shanti Nagar   42.3km
+344. Shanti Park   42.3km
+345. Vasai   66.0km
+346. Vasai East   62.2km
+347. Vasai Road   65.5km
+348. Vasai West   67.5km
+349. Vasant Nagari   64.0km
+350. Vijay Park   40.7km
+351. Vinay Nagar   40.7km
+352. Virar   77.4km
+353. Virar East   75.2km
+354. Virar West   80.6km
+355. Y K Nagar   76.5km
