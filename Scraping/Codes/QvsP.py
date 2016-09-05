@@ -6,7 +6,7 @@ from requests import get
 import re
 
 url = "http://www.99acres.com/property-rates-and-price-trends-in-mumbai"
-filename = "nine_nine_acres10.txt"
+filename = "QvsP.txt"
 headers = { 'User-Agent' : 'Mozilla/5.0' }
 
 def open_url(url):
