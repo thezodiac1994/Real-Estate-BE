@@ -1,0 +1,355 @@
+1. Airoli   0
+2. Dronagiri   0
+3. Ghansoli   1
+4. Jeejamata Nagar   3
+5. Jui Nagar   0
+6. Kalamboli   0
+7. Kamothe   1
+8. Karanjade   0
+9. Khalapur   0
+10. Khanda Colony   1
+11. Khandeshwar   2
+12. Kharghar   3
+13. Koperkhairane   1
+14. Kutak Bandhan   10
+15. Navade   0
+16. Nerul   1
+17. New Sector-50 Nerul   0
+18. Old Panvel   6
+19. Owe Village   0
+20. Palm Beach   1
+21. Panvel   3
+22. Petali   1
+23. Roadpali   0
+24. Sanpada   1
+25. Seawoods   1
+26. Sector-3 Ulwe   0
+27. Sector-5 Kharghar   1
+28. Sector-6 Kharghar   10
+29. Sector-7 Kamothe   0
+30. Sector-8 Kharghar   1
+31. Sector-8 Ulwe   0
+32. Sector-8A Airoli   0
+33. Sector-9 Ulwe   0
+34. Sector-12 Kamothe   0
+35. Sector-13 Kharghar   1
+36. Sector-16 Kharghar   2
+37. Sector-16 Taloja   0
+38. Sector-16 Ulwe   0
+39. Sector-17 Kamothe   0
+40. Sector-18 Ulwe   0
+41. Sector-19 Airoli   0
+42. Sector-20 Koparkhairane   1
+43. Sector-20 Nerul   1
+44. Sector-20 Roadpali   0
+45. Sector-25 Kamothe   0
+46. Sector-25 Khandeshhwar   0
+47. Sector-27 Kharghar   2
+48. Sector-27 Nerul   1
+49. Sector-30 Belapur   0
+50. Sector-34 Kharghar   1
+51. Sector-34B Kharghar   1
+52. Sector-35 Kamothe   0
+53. Sector-35D Kharghar   1
+54. Sector-35E Kharghar   1
+55. Sector-35G Kharghar   1
+56. Sector-50 Seawoods   0
+57. Sector 2 Kharghar   1
+58. Sector 2 Ulwe   0
+59. Sector 3 Kharghar   1
+60. Sector 5 Ulwe   0
+61. Sector 6 Kamothe   0
+62. Sector 7 Kharghar   3
+63. Sector 8 Airoli   0
+64. Sector 9 Airoli   0
+65. Sector 10 Kamothe   0
+66. Sector 10 Kharghar   2
+67. Sector 11 Belapur   0
+68. Sector 11 Kharghar   1
+69. Sector 11 Koparkhairane   1
+70. Sector 12 Kharghar   2
+71. Sector 14 Kharghar   0
+72. Sector 15 Belapur   0
+73. Sector 15 Kharghar   1
+74. Sector 16 Kamothe   0
+75. Sector 17 Ulwe   0
+76. Sector 17 Vashi   0
+77. Sector 18 Kamothe   1
+78. Sector 18 Kharghar   1
+79. Sector 19 Kamothe   1
+80. Sector 19 Kharghar   2
+81. Sector 19 Ulwe   1
+82. Sector 19A Nerul   1
+83. Sector 20 Airoli   0
+84. Sector 20 Belapur   2
+85. Sector 20 Kamothe   0
+86. Sector 20 Kharghar   1
+87. Sector 20 Ulwe   1
+88. Sector 21 Kamothe   0
+89. Sector 21 Kharghar   1
+90. Sector 21 Nerul   1
+91. Sector 21 Ulwe   0
+92. Sector 22 Kamothe   0
+93. Sector 23 Ulwe   0
+94. Sector 26 Vashi   1
+95. Sector 28 Vashi   0
+96. Sector 29 Nerul   0
+97. Sector 30 Kharghar   2
+98. Sector 34 Kamothe   0
+99. Sector 34C Kharghar   1
+100. Sector 35I Kharghar   2
+101. Sector 36 Kamothe   0
+102. Sector 36 Kharghar   10
+103. Shilphata   0
+104. Taloja   2
+105. Taloja Panchanand   0
+106. Ulwe   0
+107. Vashi   3
+108. Vichumbe   0
+109. Ambedkar Nagar   1
+110. Bhandup (East)   5
+111. Bhandup (West)   4
+112. Chandivali   0
+113. Ghatkopar (East)   3
+114. Ghatkopar West   3
+115. Hiranandani Gardens - Powai   7
+116. Jaydev Singh Nagar   4
+117. Kanjur Marg (East)   1
+118. Kanjur Marg (west)   1
+119. Kurla (East)   10
+120. Kurla (west)   5
+121. LBS Marg   9
+122. Mulund   2
+123. Mulund (East)   3
+124. Mulund (West)   3
+125. Mulund Colony   2
+126. Powai   2
+127. Raheja Vihar   0
+128. Rajiv Gandhi Nagar   0
+129. Sion (East)   1
+130. Sion (West)   1
+131. Tilak Nagar   2
+132. Vidyavihar   0
+133. Vikhroli (East)   1
+134. Vikhroli (West)   2
+135. Bhakti Park   0
+136. Byculla   2
+137. Chembur   7
+138. Chembur (East)   6
+139. Chembur (West)   6
+140. Deonar   2
+141. Govandi   3
+142. Lalbaug   1
+143. Mazgaon   1
+144. Sindhi Society Chembur   7
+145. Tilak Nagar   2
+146. Wadala   0
+147. Wadala East   0
+148. Wadala West   0
+149. Agripada   1
+150. Altamount Road   4
+151. Breach Candy   0
+152. Churchgate   1
+153. Colaba   1
+154. Cuffe Parade   0
+155. Dadar   8
+156. Dadar (East)   5
+157. Dadar (West)   4
+158. Lower Parel   2
+159. Mahalaxmi   1
+160. Malabar Hill   1
+161. Matunga   3
+162. Matunga East   4
+163. Matunga West   1
+164. Napean Sea Road   2
+165. Parel   4
+166. Parmanand Wadi   7
+167. Peddar Road   1
+168. Prabhadevi   9
+169. Shivaji Park   0
+170. Upper Worli   3
+171. Worli   2
+172. Bandra (East)   6
+173. Bandra (West)   5
+174. Bandra Kurla Complex   6
+175. Gandhi Nagar   9
+176. Juhu   2
+177. Juhu Scheme   2
+178. JVPD   0
+179. Kalina   1
+180. Khar   0
+181. Khar West   3
+182. Mahim (West)   3
+183. Pali Hill   1
+184. Santacruz (East)   0
+185. Santacruz (West)   4
+186. Vakola   6
+187. Vile Parle (East)   1
+188. Vile Parle (West)   4
+189. Adharwadi   0
+190. Ambernath   1
+191. Ambivli   1
+192. Asangaon   0
+193. Badlapur   2
+194. Badlapur (East)   2
+195. Badlapur (West)   1
+196. Belavali   1
+197. Bhiwandi   7
+198. Dombivli (East)   1
+199. Dombivli (West)   3
+200. Gandhar Nagar   7
+201. Kalwa   0
+202. Kalyan (East)   2
+203. Kalyan (West)   4
+204. Karjat   1
+205. Katrap   1
+206. Khadakpada   1
+207. Kharegaon   0
+208. Khopoli   1
+209. Manda   0
+210. Manjarli   1
+211. Neral   1
+212. Nilje Gaon   1
+213. Shirgaon   0
+214. Sonivali   0
+215. Sunil Nagar   0
+216. Thakurli   0
+217. Titwala   0
+218. Ulhasnagar   5
+219. Vangani   0
+220. Anand Nagar   2
+221. Balkum   0
+222. Brahmand   1
+223. Charai   1
+224. Devdaya Nagar   0
+225. Dhokali   1
+226. Gawand Baug   0
+227. G B Road   1
+228. Ghodbunder Road   1
+229. Hiranandani Estate   0
+230. Hiranandani Meadows   0
+231. Kailash Nagar   9
+232. Kalher   0
+233. Kalwa   0
+234. Kapurbawadi   2
+235. Kasar Vadavali   10
+236. Kasheli   0
+237. Kavesar   0
+238. Khopat   4
+239. Kolshet   0
+240. Kolshet Road   1
+241. Kopri   1
+242. Lokmanya Nagar   0
+243. Louis Wadi   1
+244. Majiwada   1
+245. Manpada   1
+246. Naupada   1
+247. Owale   0
+248. Panch Pakhadi   2
+249. Parsik Nagar   1
+250. Patlipada   0
+251. Pokharan Road   1
+252. Pokhran-2   0
+253. Sai Nagar   0
+254. Samata Nagar   0
+255. Shastri Nagar   1
+256. Shivai Nagar   1
+257. Teen Haath Naka   1
+258. Thane (East)   3
+259. Thane West   10
+260. Vartak Nagar   8
+261. Vasant Vihar   1
+262. Vrindavan   0
+263. Waghbil   0
+264. Wagle Estate   1
+265. 4 Bunglows   0
+266. 7 Bunglow   1
+267. Aarey Milk Colony   1
+268. Alika Nagar   1
+269. Amboli   0
+270. Andheri (East)   3
+271. Andheri (West)   6
+272. Asha Nagar   1
+273. Azad Nagar   1
+274. Borivali (East)   3
+275. Borivali (West)   6
+276. Chakala   2
+277. Charkop   0
+278. Chincholi Bunder   0
+279. Dahanukar Wadi   3
+280. Dahisar   1
+281. Dahisar (East)   1
+282. Dahisar (West)   3
+283. Evershine Nagar   1
+284. Film City Road   0
+285. Gokuldham   1
+286. Gorai   2
+287. Goregaon (East)   3
+288. Goregaon (West)   6
+289. I C Colony   1
+290. Jankalyan Nagar   1
+291. Jawahar Nagar   0
+292. J B Nagar   1
+293. Jogeshwari (East)   2
+294. Jogeshwari (West)   1
+295. JVLR   1
+296. Kanchpada   1
+297. Kandarpada   0
+298. Kandivali (East)   5
+299. Kandivali (West)   6
+300. Lokhandwala   3
+301. Lokhandwala Township   0
+302. Mahavir Nagar   2
+303. Malad (East)   4
+304. Malad (West)   6
+305. Malvani   2
+306. Marol   3
+307. Mindspace   2
+308. Sakinaka   1
+309. Sector-8 Charkop   0
+310. Sector 2 Charkop   0
+311. Shastri Nagar   1
+312. Shimpoli   0
+313. Siddharth Nagar   1
+314. SV Patel Nagar   4
+315. Thakur Complex   3
+316. Thakur Village   4
+317. Veera Desai Road   0
+318. Yari Road   3
+319. Bevarly Park   1
+320. Bhayander (East)   1
+321. Bhayander (West)   1
+322. Boisar   2
+323. Bolinj   2
+324. Chandan Shanti   3
+325. Ekvira Darshan   2
+326. Gokul Township   1
+327. Hatkesh Udhog Nagar   2
+328. Kashimira   0
+329. Mira Bhayandar   5
+330. Mira Road   3
+331. Mira Road East   3
+332. Morya Nagar   3
+333. Naigaon (East)   1
+334. Naigaon (West)   3
+335. Nalasopara (West)   1
+336. Nalasopara East   2
+337. Nallasopara   1
+338. Nilemore   2
+339. Palghar   1
+340. Panchamratna Park   1
+341. Poonam Gardens   0
+342. Poonam Sagar Complex   0
+343. Shanti Nagar   1
+344. Shanti Park   0
+345. Vasai   5
+346. Vasai East   1
+347. Vasai Road   5
+348. Vasai West   5
+349. Vasant Nagari   1
+350. Vijay Park   0
+351. Vinay Nagar   0
+352. Virar   1
+353. Virar East   1
+354. Virar West   1
+355. Y K Nagar   1
