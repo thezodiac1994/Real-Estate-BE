@@ -54,7 +54,7 @@ for j in soup.findAll('div',attrs={'href':'javascript:void(0);'}):
     #print(len(elem))
     print(area_name+ str(len(elems)))
     with open(filename, 'a') as out:
-            out.write(str(k) + '. ' + area_name +'   ' +str(len(elems))+'\n')
+            out.write(str(k) + ' ' + area_name +'   ' +str(len(elems))+'\n')
 
     '''
     try:
