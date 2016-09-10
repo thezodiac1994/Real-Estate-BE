@@ -13,10 +13,10 @@ int main () {
 
 
     freopen("QvsP.txt","r",stdin);
-    freopen("timevsprice.txt","w",stdout);
+    freopen("id_vs_name.txt","w",stdout);
 
 
-    int id,tot;
+    int id,tot,vis[1001] = {0};
     string ln,s,q,name;
 
     while(cin >> id){
@@ -27,8 +27,11 @@ int main () {
             //cout << name << " " << yr << endl;;
             tot = yr - 2009;
             tot = tot * 4 + m[q];
-            cout << id << " " << tot << " " << med  << endl;
-           // scanf(" ");
+            if(!vis[id]){
+                cout << id << " " << name << endl;
+                // scanf(" ");
+                vis[id] = 1;
+           }
         } while(yr!=2016 || m[q]!=1);
 
     }
