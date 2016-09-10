@@ -1,0 +1,355 @@
+1  Airoli
+2  Dronagiri
+3  Ghansoli
+4  Jeejamata Nagar
+5  Jui Nagar
+6  Kalamboli
+7  Kamothe
+8  Karanjade
+9  Khalapur
+10  Khanda Colony
+11  Khandeshwar
+12  Kharghar
+13  Koperkhairane
+14  Kutak Bandhan
+15  Navade
+16  Nerul
+17  New Sector-50 Nerul
+18  Old Panvel
+19  Owe Village
+20  Palm Beach
+21  Panvel
+22  Petali
+23  Roadpali
+24  Sanpada
+25  Seawoods
+26  Sector-3 Ulwe
+27  Sector-5 Kharghar
+28  Sector-6 Kharghar
+29  Sector-7 Kamothe
+30  Sector-8 Kharghar
+31  Sector-8 Ulwe
+32  Sector-8A Airoli
+33  Sector-9 Ulwe
+34  Sector-12 Kamothe
+35  Sector-13 Kharghar
+36  Sector-16 Kharghar
+37  Sector-16 Taloja
+38  Sector-16 Ulwe
+39  Sector-17 Kamothe
+40  Sector-18 Ulwe
+41  Sector-19 Airoli
+42  Sector-20 Koparkhairane
+43  Sector-20 Nerul
+44  Sector-20 Roadpali
+45  Sector-25 Kamothe
+46  Sector-25 Khandeshhwar
+47  Sector-27 Kharghar
+48  Sector-27 Nerul
+49  Sector-30 Belapur
+50  Sector-34 Kharghar
+51  Sector-34B Kharghar
+52  Sector-35 Kamothe
+53  Sector-35D Kharghar
+54  Sector-35E Kharghar
+55  Sector-35G Kharghar
+56  Sector-50 Seawoods
+57  Sector 2 Kharghar
+58  Sector 2 Ulwe
+59  Sector 3 Kharghar
+60  Sector 5 Ulwe
+61  Sector 6 Kamothe
+62  Sector 7 Kharghar
+63  Sector 8 Airoli
+64  Sector 9 Airoli
+65  Sector 10 Kamothe
+66  Sector 10 Kharghar
+67  Sector 11 Belapur
+68  Sector 11 Kharghar
+69  Sector 11 Koparkhairane
+70  Sector 12 Kharghar
+71  Sector 14 Kharghar
+72  Sector 15 Belapur
+73  Sector 15 Kharghar
+74  Sector 16 Kamothe
+75  Sector 17 Ulwe
+76  Sector 17 Vashi
+77  Sector 18 Kamothe
+78  Sector 18 Kharghar
+79  Sector 19 Kamothe
+80  Sector 19 Kharghar
+81  Sector 19 Ulwe
+82  Sector 19A Nerul
+83  Sector 20 Airoli
+84  Sector 20 Belapur
+85  Sector 20 Kamothe
+86  Sector 20 Kharghar
+87  Sector 20 Ulwe
+88  Sector 21 Kamothe
+89  Sector 21 Kharghar
+90  Sector 21 Nerul
+91  Sector 21 Ulwe
+92  Sector 22 Kamothe
+93  Sector 23 Ulwe
+94  Sector 26 Vashi
+95  Sector 28 Vashi
+96  Sector 29 Nerul
+97  Sector 30 Kharghar
+98  Sector 34 Kamothe
+99  Sector 34C Kharghar
+100  Sector 35I Kharghar
+101  Sector 36 Kamothe
+102  Sector 36 Kharghar
+103  Shilphata
+104  Taloja
+105  Taloja Panchanand
+106  Ulwe
+107  Vashi
+108  Vichumbe
+109  Ambedkar Nagar
+110  Bhandup (East)
+111  Bhandup (West)
+112  Chandivali
+113  Ghatkopar (East)
+114  Ghatkopar West
+115  Hiranandani Gardens - Powai
+116  Jaydev Singh Nagar
+117  Kanjur Marg (East)
+118  Kanjur Marg (west)
+119  Kurla (East)
+120  Kurla (west)
+121  LBS Marg
+122  Mulund
+123  Mulund (East)
+124  Mulund (West)
+125  Mulund Colony
+126  Powai
+127  Raheja Vihar
+128  Rajiv Gandhi Nagar
+129  Sion (East)
+130  Sion (West)
+131  Tilak Nagar
+132  Vidyavihar
+133  Vikhroli (East)
+134  Vikhroli (West)
+135  Bhakti Park
+136  Byculla
+137  Chembur
+138  Chembur (East)
+139  Chembur (West)
+140  Deonar
+141  Govandi
+142  Lalbaug
+143  Mazgaon
+144  Sindhi Society Chembur
+145  Tilak Nagar
+146  Wadala
+147  Wadala East
+148  Wadala West
+149  Agripada
+150  Altamount Road
+151  Breach Candy
+152  Churchgate
+153  Colaba
+154  Cuffe Parade
+155  Dadar
+156  Dadar (East)
+157  Dadar (West)
+158  Lower Parel
+159  Mahalaxmi
+160  Malabar Hill
+161  Matunga
+162  Matunga East
+163  Matunga West
+164  Napean Sea Road
+165  Parel
+166  Parmanand Wadi
+167  Peddar Road
+168  Prabhadevi
+169  Shivaji Park
+170  Upper Worli
+171  Worli
+172  Bandra (East)
+173  Bandra (West)
+174  Bandra Kurla Complex
+175  Gandhi Nagar
+176  Juhu
+177  Juhu Scheme
+178  JVPD
+179  Kalina
+180  Khar
+181  Khar West
+182  Mahim (West)
+183  Pali Hill
+184  Santacruz (East)
+185  Santacruz (West)
+186  Vakola
+187  Vile Parle (East)
+188  Vile Parle (West)
+189  Adharwadi
+190  Ambernath
+191  Ambivli
+192  Asangaon
+193  Badlapur
+194  Badlapur (East)
+195  Badlapur (West)
+196  Belavali
+197  Bhiwandi
+198  Dombivli (East)
+199  Dombivli (West)
+200  Gandhar Nagar
+201  Kalwa
+202  Kalyan (East)
+203  Kalyan (West)
+204  Karjat
+205  Katrap
+206  Khadakpada
+207  Kharegaon
+208  Khopoli
+209  Manda
+210  Manjarli
+211  Neral
+212  Nilje Gaon
+213  Shirgaon
+214  Sonivali
+215  Sunil Nagar
+216  Thakurli
+217  Titwala
+218  Ulhasnagar
+219  Vangani
+220  Anand Nagar
+221  Balkum
+222  Brahmand
+223  Charai
+224  Devdaya Nagar
+225  Dhokali
+226  Gawand Baug
+227  G B Road
+228  Ghodbunder Road
+229  Hiranandani Estate
+230  Hiranandani Meadows
+231  Kailash Nagar
+232  Kalher
+233  Kalwa
+234  Kapurbawadi
+235  Kasar Vadavali
+236  Kasheli
+237  Kavesar
+238  Khopat
+239  Kolshet
+240  Kolshet Road
+241  Kopri
+242  Lokmanya Nagar
+243  Louis Wadi
+244  Majiwada
+245  Manpada
+246  Naupada
+247  Owale
+248  Panch Pakhadi
+249  Parsik Nagar
+250  Patlipada
+251  Pokharan Road
+252  Pokhran-2
+253  Sai Nagar
+254  Samata Nagar
+255  Shastri Nagar
+256  Shivai Nagar
+257  Teen Haath Naka
+258  Thane (East)
+259  Thane West
+260  Vartak Nagar
+261  Vasant Vihar
+262  Vrindavan
+263  Waghbil
+264  Wagle Estate
+265  4 Bunglows
+266  7 Bunglow
+267  Aarey Milk Colony
+268  Alika Nagar
+269  Amboli
+270  Andheri (East)
+271  Andheri (West)
+272  Asha Nagar
+273  Azad Nagar
+274  Borivali (East)
+275  Borivali (West)
+276  Chakala
+277  Charkop
+278  Chincholi Bunder
+279  Dahanukar Wadi
+280  Dahisar
+281  Dahisar (East)
+282  Dahisar (West)
+283  Evershine Nagar
+284  Film City Road
+285  Gokuldham
+286  Gorai
+287  Goregaon (East)
+288  Goregaon (West)
+289  I C Colony
+290  Jankalyan Nagar
+291  Jawahar Nagar
+292  J B Nagar
+293  Jogeshwari (East)
+294  Jogeshwari (West)
+295  JVLR
+296  Kanchpada
+297  Kandarpada
+298  Kandivali (East)
+299  Kandivali (West)
+300  Lokhandwala
+301  Lokhandwala Township
+302  Mahavir Nagar
+303  Malad (East)
+304  Malad (West)
+305  Malvani
+306  Marol
+307  Mindspace
+308  Sakinaka
+309  Sector-8 Charkop
+310  Sector 2 Charkop
+311  Shastri Nagar
+312  Shimpoli
+313  Siddharth Nagar
+314  SV Patel Nagar
+315  Thakur Complex
+316  Thakur Village
+317  Veera Desai Road
+318  Yari Road
+319  Bevarly Park
+320  Bhayander (East)
+321  Bhayander (West)
+322  Boisar
+323  Bolinj
+324  Chandan Shanti
+325  Ekvira Darshan
+326  Gokul Township
+327  Hatkesh Udhog Nagar
+328  Kashimira
+329  Mira Bhayandar
+330  Mira Road
+331  Mira Road East
+332  Morya Nagar
+333  Naigaon (East)
+334  Naigaon (West)
+335  Nalasopara (West)
+336  Nalasopara East
+337  Nallasopara
+338  Nilemore
+339  Palghar
+340  Panchamratna Park
+341  Poonam Gardens
+342  Poonam Sagar Complex
+343  Shanti Nagar
+344  Shanti Park
+345  Vasai
+346  Vasai East
+347  Vasai Road
+348  Vasai West
+349  Vasant Nagari
+350  Vijay Park
+351  Vinay Nagar
+352  Virar
+353  Virar East
+354  Virar West
+355  Y K Nagar
