@@ -6,6 +6,8 @@ import string
 from requests import get
 import re
 
+
+
 url = "http://www.99acres.com/property-rates-and-price-trends-in-mumbai"
 filename = "AirportDistance.txt"
 headers = { 'User-Agent' : 'Mozilla/5.0' }
@@ -36,13 +38,14 @@ for j in soup.findAll('div',attrs={'href':'javascript:void(0);'}):
     area_name = area_name[ind1+1:ind2-1]
     #area name from 99acres -> price data available 
     print(area_name)
-
+    
     k+=1
 
     #url2,soup2 -> google map
     #url2="https://www.google.co.in/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q="+area_name+"%20to%20airport"
     url2="https://www.google.com/maps/dir/"+area_name+"/Chhatrapati Shivaji International Airport"
-    #print(url2)
+    print(url2)
+
     #req2 = urllib2.Request(url2, None, headers)
     #html2 = urllib2.urlopen(req2).read()
     #soup2 = get_bsoup_object(html2)
@@ -53,17 +56,18 @@ for j in soup.findAll('div',attrs={'href':'javascript:void(0);'}):
 
     try:
         #Using re,  find (space)km in text
-        obj=re.compile(r'null,\[(\d*),\"((\d)*(\.)*(\d)*) km')
+        obj=re.compile(r'((\d)*(\.)*(\d)*) km')
         Match_object=obj.search(Text)
-        dist=Match_object.group(2) #first occurrence
+        print(obj.findall(Text))
+        dist=Match_object.group(1) #first occurrence
         print(dist)
-
+        
         with open(filename, 'a') as out:
-            out.write(str(k) + '. ' + area_name +'   '  + dist +'km' +'\n')
+            out.write(str(k) + ' ' +dist +' km' +'\n')
     
     except:
         with open(filename, 'a') as out:
-            out.write(str(k) + '. ' + area_name +'   '  + str( ) +'km' +'\n')
+            out.write(str(k) + '  km' +'\n')
         
 
     

@@ -7,7 +7,7 @@ from requests import get
 import re
 
 url = "http://www.99acres.com/property-rates-and-price-trends-in-mumbai"
-filename = "altamountdist.txt"
+filename = "AltamountDistance.txt"
 headers = { 'User-Agent' : 'Mozilla/5.0' }
 
 def open_url(url):
@@ -59,11 +59,11 @@ for j in soup.findAll('div',attrs={'href':'javascript:void(0);'}):
         print(dist)
 
         with open(filename, 'a') as out:
-            out.write(str(k) + '. ' + area_name +'   '  + dist +'km' +'\n')
+            out.write(str(k) + ' ' + dist +'\n')
     
     except:
         with open(filename, 'a') as out:
-            out.write(str(k) + '. ' + area_name +'   '  + str( ) +'km' +'\n')
+            out.write(str(k) + ' '+'\n')
         
 
     
