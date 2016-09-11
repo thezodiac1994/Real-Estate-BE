@@ -7,16 +7,17 @@ plt.interactive(False)
 ipdata = pd.read_csv("inp.csv") #any dataset will work.
 opdata = pd.read_csv("op.csv")
 X = ipdata[:]
-print(X)
 Y = opdata[:]
-print(Y)
 
 mdl = LinearRegression().fit(X,Y) # either this or the next line
 #mdl = LinearRegression().fit(filtered_data[['x']],filtered_data.y)
-print(mdl.coef_)
-#m = mdl.coef_[2]
-#b = mdl.intercept_
-print ("formula: y = {0}x + {1}".format(m, b)) # following slope intercept form"
+#print(mdl.coef_)
+m = mdl.coef_
+c = mdl.intercept_
+print ("\nPrice = ({})T + ({})D1 + ({})D2 + {}".format(m[0][0],m[0][1],m[0][2],c[0]))
+print("\nT = time,\nD1 = distance from Altamount Road,\nD2 = Distance from Airport")
+
+
 #plt.scatter(T,P, color='blue')
 #plt.plot([0,40],[b,m*40+b],'r')
 #plt.title('Vasai Median Prices', fontsize = 15)
