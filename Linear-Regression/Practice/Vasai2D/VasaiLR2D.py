@@ -8,6 +8,7 @@ raw_data = pd.read_csv("linear.csv") #any dataset will work.
 raw_data.head(3)
 filtered_data = raw_data[~np.isnan(raw_data["y"])] #removes rows with NaN in them
 filtered_data.head(3)
+print(filtered_data)
 npMatrix = np.matrix(filtered_data)
 X, Y = npMatrix[:,0], npMatrix[:,1]
 mdl = LinearRegression().fit(X,Y) # either this or the next line
