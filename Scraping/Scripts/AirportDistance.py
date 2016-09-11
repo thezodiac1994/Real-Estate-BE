@@ -63,11 +63,11 @@ for j in soup.findAll('div',attrs={'href':'javascript:void(0);'}):
         print(dist)
         
         with open(filename, 'a') as out:
-            out.write(str(k) + ' ' +dist +' km' +'\n')
+            out.write(str(k) + ' ' + dist +'\n')
     
     except:
         with open(filename, 'a') as out:
-            out.write(str(k) + '  km' +'\n')
+            out.write(str(k) + ' ' +'\n')
         
 
     
