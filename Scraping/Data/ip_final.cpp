@@ -28,10 +28,14 @@ int main () {
 
     ifstream TP("TimevsPrice.txt");
     ofstream IP("ip.txt");
+    ofstream TEST("test.txt");
+
 
     while(TP >> id){
         TP >> q >> p;
-        IP << q << " " << Airport[id] << " " << Altamount[id] << " " << p << endl;
+        if(q<28)
+            IP << q << " " << Airport[id] << " " << Altamount[id] << " " << p << endl;
+        else TEST << q << " " << Airport[id] << " " << Altamount[id] << " " << p << endl;
     }
 
     return 0;

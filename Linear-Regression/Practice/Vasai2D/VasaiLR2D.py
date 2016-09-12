@@ -15,7 +15,8 @@ mdl = LinearRegression().fit(X,Y) # either this or the next line
 #mdl = LinearRegression().fit(filtered_data[['x']],filtered_data.y)
 m = mdl.coef_[0]
 b = mdl.intercept_
-print ("formula: y = {0}x + {1}".format(m, b)) # following slope intercept form"
+#print ("formula: y = {0}x + {1}".format(m, b)) # following slope intercept form"
+print(mdl.score(X,Y))
 plt.scatter(X,Y, color='blue')
 plt.plot([0,40],[b,m*40+b],'r')
 plt.title('Vasai Median Prices', fontsize = 15)

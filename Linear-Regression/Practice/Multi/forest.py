@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from sklearn.linear_model import LinearRegression
+from sklearn.ensemble import RandomForestRegressor
 import matplotlib.pyplot as plt
 plt.interactive(False)
 
@@ -9,11 +9,11 @@ opdata = pd.read_csv("op.csv")
 X = ipdata[:]
 Y = opdata[:]
 
-mdl = LinearRegression().fit(X,Y) # either this or the next line
+mdl = RandomForestRegressor().fit(X,Y) # either this or the next line
 #mdl = LinearRegression().fit(filtered_data[['x']],filtered_data.y)
 #print(mdl.coef_)
-m = mdl.coef_
-c = mdl.intercept_
+#m = mdl.coef_
+#c = mdl.intercept_
 #print ("\nPrice = ({})T + ({})D1 + ({})D2 + {}".format(m[0][0],m[0][1],m[0][2],c[0]))
 #print("\nT = time,\nD1 = distance from Altamount Road,\nD2 = Distance from Airport")
 
