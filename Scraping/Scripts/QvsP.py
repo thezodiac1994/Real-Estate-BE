@@ -52,7 +52,7 @@ for j in soup.findAll('div',attrs={'href':'javascript:void(0);'}):
 	ind1 = [m.start() for m in re.finditer(r",",area_name)][4]
 	ind2 = [m.start() for m in re.finditer(r",",area_name)][5]
 	ind1 += 1
-	area_name = area_name[ind1:ind2]
+	area_name = area_name[ind1+1:ind2-1]
     
     
 	temp = temp[86:91]	
@@ -135,7 +135,7 @@ for j in soup.findAll('div',attrs={'href':'javascript:void(0);'}):
 	i1 = s_ptr
 	i2 = s_ptr
 	with open(filename, 'a') as out:
-			out.write(str(k) + '. ' + area_name + '\n\n') 
+			out.write(str(k) + ' ' + area_name + '\n\n') 
 			
 	#print("len of low_int is ", len(low_int))
 	i = -1

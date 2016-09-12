@@ -1,0 +1,27 @@
+To do : 
+1) Think of parameters that can be scraped specific to general locations 
+2) Scrape at least 1 more parameter 
+3) Format the data and fit it in a csv file
+	- need to think of a way for efficiently representing quarters along a dimension. Example : The 0 should possibly be 2000Q1 ?
+PS : We can create a text file and then use a text to csv converter like app
+4) Build a multivariate model
+
+
+
+
+Details : 
+
+Current Parameters : 
+1) Time
+2) Distance to Most exp place
+3) Distance to Airport
+4) _______________
+
+Input : 
+Vasai 	- x no of inputs and x ops
+NSP		= y no of inputs and y ops 
+.
+.
+
+PS : ~85% % of the data should be used for training. For now, we can set the last 5 quarters for testing. Remaining should be used for training.
+~ Also note that the only factor changing in the x inputs for one place is possibly going to be time! All the other factors remain constant unless we look at developments that were made in the training period.

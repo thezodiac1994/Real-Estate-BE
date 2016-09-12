@@ -7,7 +7,7 @@ from requests import get
 import re
 
 url = "http://www.99acres.com/property-rates-and-price-trends-in-mumbai"
-filename = "AirportDistance.txt"
+filename = "AltamountDistance.txt"
 headers = { 'User-Agent' : 'Mozilla/5.0' }
 
 def open_url(url):
@@ -41,7 +41,7 @@ for j in soup.findAll('div',attrs={'href':'javascript:void(0);'}):
 
     #url2,soup2 -> google map
     #url2="https://www.google.co.in/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q="+area_name+"%20to%20airport"
-    url2="https://www.google.com/maps/dir/"+area_name+"/Chhatrapati Shivaji International Airport"
+    url2="https://www.google.com/maps/dir/"+area_name+"/Altamount Road"
     #print(url2)
     #req2 = urllib2.Request(url2, None, headers)
     #html2 = urllib2.urlopen(req2).read()
@@ -59,11 +59,11 @@ for j in soup.findAll('div',attrs={'href':'javascript:void(0);'}):
         print(dist)
 
         with open(filename, 'a') as out:
-            out.write(str(k) + '. ' + area_name +'   '  + dist +'km' +'\n')
+            out.write(str(k) + ' ' + dist +'\n')
     
     except:
         with open(filename, 'a') as out:
-            out.write(str(k) + '. ' + area_name +'   '  + str( ) +'km' +'\n')
+            out.write(str(k) + ' '+'\n')
         
 
     
