@@ -33,7 +33,7 @@ int main () {
 
     while(TP >> id){
         TP >> q >> p;
-        if(q<28)
+        if(q<27)
             IP << q << " " << Airport[id] << " " << Altamount[id] << " " << p << endl;
         else TEST << q << " " << Airport[id] << " " << Altamount[id] << " " << p << endl;
     }

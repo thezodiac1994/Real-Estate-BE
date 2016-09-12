@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from sklearn.ensemble import RandomForestRegressor
+from sklearn.neighbors import KNeighborsRegressor
 import matplotlib.pyplot as plt
 plt.interactive(False)
 
@@ -9,7 +9,8 @@ opdata = pd.read_csv("op75.csv")
 X = ipdata[:]
 Y = opdata[:]
 
-mdl = RandomForestRegressor().fit(X,Y) # either this or the next line
+mdl = KNeighborsRegressor(5)
+mdl.fit(X,Y) # either this or the next line
 #mdl = LinearRegression().fit(filtered_data[['x']],filtered_data.y)
 #print(mdl.coef_)
 #m = mdl.coef_
@@ -25,6 +26,7 @@ tY = topdata[:]
 
 print(mdl.score(tX,tY))
 print(mdl.score(X,Y))
+
 
 #plt.scatter(T,P, color='blue')
 #plt.plot([0,40],[b,m*40+b],'r')

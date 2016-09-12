@@ -4,8 +4,8 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 plt.interactive(False)
 
-ipdata = pd.read_csv("inp.csv") #any dataset will work.
-opdata = pd.read_csv("op.csv")
+ipdata = pd.read_csv("inp75.csv") #any dataset will work.
+opdata = pd.read_csv("op75.csv")
 X = ipdata[:]
 Y = opdata[:]
 
@@ -18,13 +18,13 @@ c = mdl.intercept_
 #print("\nT = time,\nD1 = distance from Altamount Road,\nD2 = Distance from Airport")
 
 
-tipdata = pd.read_csv("tinp.csv") #any dataset will work.
-topdata = pd.read_csv("top.csv")
+tipdata = pd.read_csv("tinp25.csv") #any dataset will work.
+topdata = pd.read_csv("top25.csv")
 tX = tipdata[:]
 tY = topdata[:]
 
-print(mdl.score(tX,tY));
-
+print(mdl.score(tX,tY))
+print(mdl.score(X,Y))
 
 #plt.scatter(T,P, color='blue')
 #plt.plot([0,40],[b,m*40+b],'r')
