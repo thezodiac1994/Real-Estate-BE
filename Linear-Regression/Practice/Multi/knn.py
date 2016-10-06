@@ -24,8 +24,28 @@ topdata = pd.read_csv("top25.csv")
 tX = tipdata[:]
 tY = topdata[:]
 
+
+
 print(mdl.score(tX,tY))
 print(mdl.score(X,Y))
+
+
+ipdata2 = pd.read_csv("traininp2.csv") #any dataset will work.
+opdata2 = pd.read_csv("trainop2.csv")
+X2 = ipdata2[:]
+Y2 = opdata2[:]
+
+tipdata2 = pd.read_csv("testinp2.csv") #any dataset will work.
+topdata2 = pd.read_csv("testop2.csv")
+tX2 = tipdata2[:]
+tY2 = topdata2[:]
+
+
+mdl2 = KNeighborsRegressor(5);
+mdl2.fit(X2,Y2);
+
+print(mdl2.score(tX2,tY2))
+print(mdl2.score(X2,Y2))
 
 
 #plt.scatter(T,P, color='blue')

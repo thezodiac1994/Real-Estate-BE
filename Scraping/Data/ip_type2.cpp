@@ -44,15 +44,17 @@ int main () {
 
 
     ifstream TP("TimevsPrice.txt");
-    ofstream IP("ip.txt");
-    ofstream TEST("test.txt");
+    ofstream IP("ip2.txt");
+    ofstream TEST("test2.txt");
 
-
+    int t = 0;
     while(TP >> id){
         TP >> q >> p;
-        if(q<27)
+        if(t>300)
             IP << q << " " << Airport[id] << " " << Altamount[id] << " " << Vashi[id] << " " << Virar[id] << " " << p << endl;
         else TEST << q << " " << Airport[id] << " " << Altamount[id] << " " << Vashi[id] << " " << Virar[id]  << " " << p << endl;
+
+        t++;
     }
 
     return 0;
