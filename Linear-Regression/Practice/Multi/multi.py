@@ -16,6 +16,8 @@ m = mdl.coef_
 c = mdl.intercept_
 
 print(m)
+print(c)
+
 #print ("\nPrice = ({})T + ({})D1 + ({})D2 + {}".format(m[0][0],m[0][1],m[0][2],c[0]))
 print("\nT = time,\nD1 = distance from Altamount Road,\nD2 = Distance from Airport")
 

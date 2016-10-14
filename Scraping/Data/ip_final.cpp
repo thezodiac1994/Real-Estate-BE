@@ -4,6 +4,8 @@ using namespace std;
 
 map <int,double> Airport;
 map <int,double> Altamount,Vashi,Virar;
+map <int,int> Mallc;
+
 vector <pair <int,int>> TP;
 
 int main () {
@@ -42,6 +44,14 @@ int main () {
         //cout << d << endl;
     }
 
+    ifstream Malls ("ShoppingMallCount.txt");
+
+    while(Malls >> id){
+        Malls >> d;
+        Mallc[id] = d;
+        //cout << d << endl;
+    }
+
 
     ifstream TP("TimevsPrice.txt");
     ofstream IP("ip.txt");
@@ -51,8 +61,8 @@ int main () {
     while(TP >> id){
         TP >> q >> p;
         if(q<27)
-            IP << q << " " << Airport[id] << " " << Altamount[id] << " " << Vashi[id] << " " << Virar[id] << " " << p << endl;
-        else TEST << q << " " << Airport[id] << " " << Altamount[id] << " " << Vashi[id] << " " << Virar[id]  << " " << p << endl;
+            IP << q << " " << Airport[id] << " " << Altamount[id] << " " << Vashi[id] << " " << Virar[id] << " " << Mallc[id] << " "  << p << endl;
+        else TEST << q << " " << Airport[id] << " " << Altamount[id] << " " << Vashi[id] << " " << Virar[id]  << " " << Mallc[id] << " " << p << endl;
     }
 
     return 0;

@@ -15,7 +15,7 @@ def gradientDescent(x, y, theta, alpha, m, numIterations):
         theta = theta - alpha * gradient
     return theta
 
-ipdata = pd.read_csv("inp75.csv") #any dataset will work.
+ipdata = pd.read_csv("ginp75.csv") #any dataset will work.
 opdata = pd.read_csv("op75.csv")
 X = ipdata[:]
 Y = opdata[:]
@@ -33,7 +33,7 @@ theta = pd.DataFrame(np.zeros((col,1)))
 theta1 = gradientDescent(X,Y,theta,0.0001,Y.size,1000) #
 print(theta1)
 #
-tipdata = pd.read_csv("tinp25.csv") #any dataset will work.
+tipdata = pd.read_csv("gtinp25.csv") #any dataset will work.
 topdata = pd.read_csv("top25.csv")
 tX = tipdata[:]
 tY = topdata[:]
