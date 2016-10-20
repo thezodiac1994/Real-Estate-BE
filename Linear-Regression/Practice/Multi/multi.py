@@ -19,7 +19,7 @@ print(m)
 print(c)
 
 #print ("\nPrice = ({})T + ({})D1 + ({})D2 + {}".format(m[0][0],m[0][1],m[0][2],c[0]))
-print("\nT = time,\nD1 = distance from Altamount Road,\nD2 = Distance from Airport")
+#print("\nT = time,\nD1 = distance from Altamount Road,\nD2 = Distance from Airport")
 
 
 tipdata = pd.read_csv("tinp25.csv") #any dataset will work.
@@ -31,10 +31,32 @@ hypothesis = np.dot(tX,np.transpose(m)) + c
 loss = hypothesis - tY
 cost = np.sum(loss ** 2) / (2 * tY.size)
 
+
+print('Absolute Error')
 pd.set_option('display.precision',5)
 print(cost)
 
 
+
+tYY = tY.values
+hy = hypothesis
+
+cu = 0
+tot = 0
+
+for i in range(0, 1026):
+    cu = 0
+    if(tYY[i][0]>hy[i][0]):
+        cu = (tYY[i][0] - hy[i][0])
+    else:
+        cu = -(tYY[i][0] - hy[i][0])
+    #print(i)
+    cu = 1.0*cu/tYY[i][0]*1.0
+    tot = tot + cu
+
+
+print('absolute %')
+print(100 - 100 * tot/1027)
 print(mdl.score(tX,tY))
 #print(mdl.score(X,Y))
 

@@ -42,25 +42,28 @@ hypothesis = np.dot(tX, theta1)
 loss = hypothesis - tY
 cost = np.sum(loss ** 2) / (2 * tY.size)
 
-pd.set_option('display.precision',5)
+#pd.set_option('display.precision',5)
+
+print('Absolute Error')
 print(cost)
 
 tot = 0
-print(tY.shape)
-print(len(tY))
+#print(tY.shape)
+#print(len(tY))
 
 tYY = tY.values
 hy = hypothesis
 
-for i in (0, 1025):
+for i in range(0, 1026):
     cu = 0
     if(tYY[i][0]>hy[i][0]):
         cu = (tYY[i][0] - hy[i][0])
     else:
         cu = -(tYY[i][0] - hy[i][0])
-    cu = cu/tYY[i][0]
+    #print(i)
+    cu = 1.0*cu/tYY[i][0]*1.0
     tot = tot + cu
 
-print(100 - 100 * tot/1025)
+print(100 - 100 * tot/1027)
 #print(mdl.score(tX,tY))
 #print(mdl.score(X,Y))
