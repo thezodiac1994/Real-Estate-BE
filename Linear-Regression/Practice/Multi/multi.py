@@ -40,58 +40,30 @@ print(cost)
 
 tYY = tY.values
 hy = hypothesis
-
-cu = 0
+dtot = 0
 tot = 0
+mae_num = 0
+mae_den = 0
+mape = 0
+
 
 for i in range(0, 1026):
+
     cu = 0
     if(tYY[i][0]>hy[i][0]):
         cu = (tYY[i][0] - hy[i][0])
     else:
         cu = -(tYY[i][0] - hy[i][0])
-    #print(i)
-    cu = 1.0*cu/tYY[i][0]*1.0
-    tot = tot + cu
+    mae_num = mae_num + cu
+    mae_den = mae_den + tYY[i][0]
+    mape = mape + 100*cu/tYY[i][0]
 
-
-print('absolute %')
-print(100 - 100 * tot/1027)
-print(mdl.score(tX,tY))
-#print(mdl.score(X,Y))
-
-#ipdata2 = pd.read_csv("traininp2.csv") #any dataset will work.
-#opdata2 = pd.read_csv("trainop2.csv")
-#X2 = ipdata2[:]
-#Y2 = opdata2[:]
-
-#tipdata2 = pd.read_csv("testinp2.csv") #any dataset will work.
-#topdata2 = pd.read_csv("testop2.csv")
-#tX2 = tipdata2[:]
-#tY2 = topdata2[:]
-
-#print(tX2)
-#print(tY2)
-
-#mdl2 = LinearRegression().fit(X2,Y2);
-
-#print(mdl.coef_)
-#print(mdl.intercept_)
-
-#print(mdl2.score(tX2,tY2))
-#print(mdl.score(tX2,tY2))
-#print(mdl2.score(X2,Y2))
-
-
-#f = open('pred.txt','w')
-#f.write(str(tX[0][0]))
-#f.write(str(mdl.predict(tX2)))
-#f.write(str(tY2))
-#f.close();
-
-#plt.scatter(T,P, color='blue')
-#plt.plot([0,40],[b,m*40+b],'r')
-#plt.title('Vasai Median Prices', fontsize = 15)
-#plt.xlabel('Quarter (0 = 2009-Q1, 40 = 2022-Q2)', fontsize = 15)
-#plt.ylabel('rs/sq.ft', fontsize = 15)
-#plt.show()
+    #if (i<30):
+    #    print(tYY[i][0])
+     #   print(hy[i][0])
+    #    print("\n")
+    tot = tot + cu*cu
+    dtot = dtot  + tYY[i][0]*tYY[i][0]
+print(tot/dtot)
+print(mae_num/mae_den)
+print(mape/1026)

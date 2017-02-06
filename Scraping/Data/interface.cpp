@@ -106,7 +106,12 @@ int main () {
                 //cout << endl << theta[i] << " " << mat[ID][i] << endl;
 
             }
-            cout << ans+2000<< endl;
+            if(ans<5000)
+                ans += 2000;
+            else if(ans<20000)
+                ans += 1000;
+
+            cout << ans<< endl;
             time++;
         }
     }

@@ -57,12 +57,17 @@ int main () {
     ofstream IP("ip.txt");
     ofstream TEST("test.txt");
 
+    ofstream vw("VASAI.txt");
 
     while(TP >> id){
         TP >> q >> p;
         if(q<27)
             IP << q << " " << Airport[id] << " " << Altamount[id] << " " << Vashi[id] << " " << Virar[id] << " " << Mallc[id] << " "  << p << endl;
         else TEST << q << " " << Airport[id] << " " << Altamount[id] << " " << Vashi[id] << " " << Virar[id]  << " " << Mallc[id] << " " << p << endl;
+
+        if(id==348)
+            vw  << q << " " << Airport[id] << " " << Altamount[id] << " " << Vashi[id] << " " << Virar[id]  << " " << Mallc[id] << " " << p << endl;
+
     }
 
     return 0;

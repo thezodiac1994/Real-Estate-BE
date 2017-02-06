@@ -15,7 +15,7 @@ def gradientDescent(x, y, theta, alpha, m, numIterations):
         theta = theta - alpha * gradient
     return theta
 
-ipdata = pd.read_csv("ginp75.csv") #any dataset will work.
+ipdata = pd.read_csv("inp75.csv") #any dataset will work.
 opdata = pd.read_csv("op75.csv")
 X = ipdata[:]
 Y = opdata[:]
@@ -30,10 +30,10 @@ theta = pd.DataFrame(np.zeros((col,1)))
 #XX = dict.items()
 #print(type(X))
 #print(Y.size)
-theta1 = gradientDescent(X,Y,theta,0.0001,Y.size,1000) #
+theta1 = gradientDescent(X,Y,theta,0.0001,Y.size,10000) #
 print(theta1)
 #
-tipdata = pd.read_csv("gtinp25.csv") #any dataset will work.
+tipdata = pd.read_csv("tinp25.csv") #any dataset will work.
 topdata = pd.read_csv("top25.csv")
 tX = tipdata[:]
 tY = topdata[:]
@@ -53,17 +53,30 @@ tot = 0
 
 tYY = tY.values
 hy = hypothesis
+dtot = 0
+tot = 0
+mae_num = 0
+mae_den = 0
+mape = 0
+
 
 for i in range(0, 1026):
+
     cu = 0
     if(tYY[i][0]>hy[i][0]):
         cu = (tYY[i][0] - hy[i][0])
     else:
         cu = -(tYY[i][0] - hy[i][0])
-    #print(i)
-    cu = 1.0*cu/tYY[i][0]*1.0
-    tot = tot + cu
+    mae_num = mae_num + cu
+    mae_den = mae_den + tYY[i][0]
+    mape = mape + 100*cu/tYY[i][0]
 
-print(100 - 100 * tot/1027)
-#print(mdl.score(tX,tY))
-#print(mdl.score(X,Y))
+    #if (i<30):
+    #    print(tYY[i][0])
+     #   print(hy[i][0])
+    #    print("\n")
+    tot = tot + cu*cu
+    dtot = dtot  + tYY[i][0]*tYY[i][0]
+print(tot/dtot)
+print(mae_num/mae_den)
+print(mape/1026)
