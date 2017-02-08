@@ -1,0 +1,355 @@
+Airoli
+Dronagiri
+Ghansoli
+Jeejamata Nagar
+Jui Nagar
+Kalamboli
+Kamothe
+Karanjade
+Khalapur
+Khanda Colony
+Khandeshwar
+Kharghar
+Koperkhairane
+Kutak Bandhan
+Navade
+Nerul
+New Sector-50 Nerul
+Old Panvel
+Owe Village
+Palm Beach
+Panvel
+Petali
+Roadpali
+Sanpada
+Seawoods
+Sector-3 Ulwe
+Sector-5 Kharghar
+Sector-6 Kharghar
+Sector-7 Kamothe
+Sector-8 Kharghar
+Sector-8 Ulwe
+Sector-8A Airoli
+Sector-9 Ulwe
+Sector-12 Kamothe
+Sector-13 Kharghar
+Sector-16 Kharghar
+Sector-16 Taloja
+Sector-16 Ulwe
+Sector-17 Kamothe
+Sector-18 Ulwe
+Sector-19 Airoli
+Sector-20 Koparkhairane
+Sector-20 Nerul
+Sector-20 Roadpali
+Sector-25 Kamothe
+Sector-25 Khandeshhwar
+Sector-27 Kharghar
+Sector-27 Nerul
+Sector-30 Belapur
+Sector-34 Kharghar
+Sector-34B Kharghar
+Sector-35 Kamothe
+Sector-35D Kharghar
+Sector-35E Kharghar
+Sector-35G Kharghar
+Sector-50 Seawoods
+Sector 2 Kharghar
+Sector 2 Ulwe
+Sector 3 Kharghar
+Sector 5 Ulwe
+Sector 6 Kamothe
+Sector 7 Kharghar
+Sector 8 Airoli
+Sector 9 Airoli
+Sector 10 Kamothe
+Sector 10 Kharghar
+Sector 11 Belapur
+Sector 11 Kharghar
+Sector 11 Koparkhairane
+Sector 12 Kharghar
+Sector 14 Kharghar
+Sector 15 Belapur
+Sector 15 Kharghar
+Sector 16 Kamothe
+Sector 17 Ulwe
+Sector 17 Vashi
+Sector 18 Kamothe
+Sector 18 Kharghar
+Sector 19 Kamothe
+Sector 19 Kharghar
+Sector 19 Ulwe
+Sector 19A Nerul
+Sector 20 Airoli
+Sector 20 Belapur
+Sector 20 Kamothe
+Sector 20 Kharghar
+Sector 20 Ulwe
+Sector 21 Kamothe
+Sector 21 Kharghar
+Sector 21 Nerul
+Sector 21 Ulwe
+Sector 22 Kamothe
+Sector 23 Ulwe
+Sector 26 Vashi
+Sector 28 Vashi
+Sector 29 Nerul
+Sector 30 Kharghar
+Sector 34 Kamothe
+Sector 34C Kharghar
+Sector 35I Kharghar
+Sector 36 Kamothe
+Sector 36 Kharghar
+Shilphata
+Taloja
+Taloja Panchanand
+Ulwe
+Vashi
+Vichumbe
+Ambedkar Nagar
+Bhandup (East)
+Bhandup (West)
+Chandivali
+Ghatkopar (East)
+Ghatkopar West
+Hiranandani Gardens - Powai
+Jaydev Singh Nagar
+Kanjur Marg (East)
+Kanjur Marg (west)
+Kurla (East)
+Kurla (west)
+LBS Marg
+Mulund
+Mulund (East)
+Mulund (West)
+Mulund Colony
+Powai
+Raheja Vihar
+Rajiv Gandhi Nagar
+Sion (East)
+Sion (West)
+Tilak Nagar
+Vidyavihar
+Vikhroli (East)
+Vikhroli (West)
+Bhakti Park
+Byculla
+Chembur
+Chembur (East)
+Chembur (West)
+Deonar
+Govandi
+Lalbaug
+Mazgaon
+Sindhi Society Chembur
+Tilak Nagar
+Wadala
+Wadala East
+Wadala West
+Agripada
+Altamount Road
+Breach Candy
+Churchgate
+Colaba
+Cuffe Parade
+Dadar
+Dadar (East)
+Dadar (West)
+Lower Parel
+Mahalaxmi
+Malabar Hill
+Matunga
+Matunga East
+Matunga West
+Napean Sea Road
+Parel
+Parmanand Wadi
+Peddar Road
+Prabhadevi
+Shivaji Park
+Upper Worli
+Worli
+Bandra (East)
+Bandra (West)
+Bandra Kurla Complex
+Gandhi Nagar
+Juhu
+Juhu Scheme
+JVPD
+Kalina
+Khar
+Khar West
+Mahim (West)
+Pali Hill
+Santacruz (East)
+Santacruz (West)
+Vakola
+Vile Parle (East)
+Vile Parle (West)
+Adharwadi
+Ambernath
+Ambivli
+Asangaon
+Badlapur
+Badlapur (East)
+Badlapur (West)
+Belavali
+Bhiwandi
+Dombivli (East)
+Dombivli (West)
+Gandhar Nagar
+Kalwa
+Kalyan (East)
+Kalyan (West)
+Karjat
+Katrap
+Khadakpada
+Kharegaon
+Khopoli
+Manda
+Manjarli
+Neral
+Nilje Gaon
+Shirgaon
+Sonivali
+Sunil Nagar
+Thakurli
+Titwala
+Ulhasnagar
+Vangani
+Anand Nagar
+Balkum
+Brahmand
+Charai
+Devdaya Nagar
+Dhokali
+Gawand Baug
+G B Road
+Ghodbunder Road
+Hiranandani Estate
+Hiranandani Meadows
+Kailash Nagar
+Kalher
+Kalwa
+Kapurbawadi
+Kasar Vadavali
+Kasheli
+Kavesar
+Khopat
+Kolshet
+Kolshet Road
+Kopri
+Lokmanya Nagar
+Louis Wadi
+Majiwada
+Manpada
+Naupada
+Owale
+Panch Pakhadi
+Parsik Nagar
+Patlipada
+Pokharan Road
+Pokhran-2
+Sai Nagar
+Samata Nagar
+Shastri Nagar
+Shivai Nagar
+Teen Haath Naka
+Thane (East)
+Thane West
+Vartak Nagar
+Vasant Vihar
+Vrindavan
+Waghbil
+Wagle Estate
+4 Bunglows
+7 Bunglow
+Aarey Milk Colony
+Alika Nagar
+Amboli
+Andheri (East)
+Andheri (West)
+Asha Nagar
+Azad Nagar
+Borivali (East)
+Borivali (West)
+Chakala
+Charkop
+Chincholi Bunder
+Dahanukar Wadi
+Dahisar
+Dahisar (East)
+Dahisar (West)
+Evershine Nagar
+Film City Road
+Gokuldham
+Gorai
+Goregaon (East)
+Goregaon (West)
+I C Colony
+Jankalyan Nagar
+Jawahar Nagar
+J B Nagar
+Jogeshwari (East)
+Jogeshwari (West)
+JVLR
+Kanchpada
+Kandarpada
+Kandivali (East)
+Kandivali (West)
+Lokhandwala
+Lokhandwala Township
+Mahavir Nagar
+Malad (East)
+Malad (West)
+Malvani
+Marol
+Mindspace
+Sakinaka
+Sector-8 Charkop
+Sector 2 Charkop
+Shastri Nagar
+Shimpoli
+Siddharth Nagar
+SV Patel Nagar
+Thakur Complex
+Thakur Village
+Veera Desai Road
+Yari Road
+Bevarly Park
+Bhayander (East)
+Bhayander (West)
+Boisar
+Bolinj
+Chandan Shanti
+Ekvira Darshan
+Gokul Township
+Hatkesh Udhog Nagar
+Kashimira
+Mira Bhayandar
+Mira Road
+Mira Road East
+Morya Nagar
+Naigaon (East)
+Naigaon (West)
+Nalasopara (West)
+Nalasopara East
+Nallasopara
+Nilemore
+Palghar
+Panchamratna Park
+Poonam Gardens
+Poonam Sagar Complex
+Shanti Nagar
+Shanti Park
+Vasai
+Vasai East
+Vasai Road
+Vasai West
+Vasant Nagari
+Vijay Park
+Vinay Nagar
+Virar
+Virar East
+Virar West
+Y K Nagar

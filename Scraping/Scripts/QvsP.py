@@ -6,7 +6,7 @@ from requests import get
 import re
 
 url = "http://www.99acres.com/property-rates-and-price-trends-in-mumbai"
-filename = "QvsP.txt"
+filename = "QvsP1.txt"
 headers = { 'User-Agent' : 'Mozilla/5.0' }
 
 def open_url(url):
@@ -46,6 +46,7 @@ dic1 = {'0':'Jan-Mar','1':'Apr-Jun','2':'Jul-Sep','3':'Oct-Dec'}
 
 for j in soup.findAll('div',attrs={'href':'javascript:void(0);'}):
 	temp = str(j)
+	print('in')
 	num=0
 	area_name = temp
 	area_name = area_name[87:]
@@ -188,4 +189,5 @@ for j in soup.findAll('div',attrs={'href':'javascript:void(0);'}):
 	
 	
 	
+print('done')
 
