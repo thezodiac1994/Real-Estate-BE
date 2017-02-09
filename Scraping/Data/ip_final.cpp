@@ -4,7 +4,7 @@ using namespace std;
 
 map <int,double> Airport;
 map <int,double> Altamount,Vashi,Virar;
-map <int,int> Mallc;
+map <int,int> Mallc,Hospc;
 
 vector <pair <int,int>> TP;
 
@@ -51,22 +51,27 @@ int main () {
         Mallc[id] = d;
         //cout << d << endl;
     }
+    ifstream Hosp ("HospitalCount.txt");
 
+    while(Hosp >> id){
+        Hosp >> d;
+        Hospc[id] = d;
+        //cout << d << endl;
+    }
 
     ifstream TP("TimevsPrice.txt");
     ofstream IP("ip.txt");
     ofstream TEST("test.txt");
-
     ofstream vw("VASAI.txt");
 
     while(TP >> id){
         TP >> q >> p;
         if(q<27)
-            IP << q << " " << Airport[id] << " " << Altamount[id] << " " << Vashi[id] << " " << Virar[id] << " " << Mallc[id] << " "  << p << endl;
-        else TEST << q << " " << Airport[id] << " " << Altamount[id] << " " << Vashi[id] << " " << Virar[id]  << " " << Mallc[id] << " " << p << endl;
+            IP << q << " " << Airport[id] << " " << Altamount[id] << " " << Vashi[id] << " " << Virar[id] << " " << Mallc[id] << " " << Hospc[id] << " " << p << endl;
+        else TEST << q << " " << Airport[id] << " " << Altamount[id] << " " << Vashi[id] << " " << Virar[id]  << " " << Mallc[id] << " " << Hospc[id] << " " << p << endl;
 
-        if(id==348)
-            vw  << q << " " << Airport[id] << " " << Altamount[id] << " " << Vashi[id] << " " << Virar[id]  << " " << Mallc[id] << " " << p << endl;
+        //if(id==348)
+          //  vw  << q << " " << Airport[id] << " " << Altamount[id] << " " << Vashi[id] << " " << Virar[id]  << " " << Mallc[id] << " " << p << endl;
 
     }
 

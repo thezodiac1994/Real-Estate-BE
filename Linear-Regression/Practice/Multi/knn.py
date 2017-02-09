@@ -109,8 +109,8 @@ print(mape)
 
 
 
-tipdata = pd.read_csv("vasai_test.csv") #any dataset will work.
-tX = tipdata[:]
-tY = mdl.predict(tX)
+#tipdata = pd.read_csv("vasai_test.csv") #any dataset will work.
+#tX = tipdata[:]
+#tY = mdl.predict(tX)
 
-print(tY)
+#print(tY)
