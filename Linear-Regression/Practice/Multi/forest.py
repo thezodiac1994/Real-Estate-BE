@@ -23,8 +23,8 @@ topdata = pd.read_csv("top25.csv")
 tX = tipdata[:]
 tY = topdata[:]
 
-print(mdl.score(tX,tY))
-print(mdl.score(X,Y))
+#print(mdl.score(tX,tY))
+#print(mdl.score(X,Y))
 
 
 #ipdata2 = pd.read_csv("traininp2.csv") #any dataset will work.
@@ -86,4 +86,4 @@ print(mape/1026)
 #tX = tipdata[:]
 #tY = mdl.predict(tX)
 
-print(tY)
+#print(tY)
