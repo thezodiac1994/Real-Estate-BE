@@ -30,7 +30,7 @@ opdata = pd.read_csv("op75.csv")
 X = ipdata[:]
 Y = opdata[:]
 
-mdl = KNeighborsRegressor(7)
+mdl = KNeighborsRegressor(2)
 mdl.fit(X,Y) # either this or the next line
 #mdl = LinearRegression().fit(filtered_data[['x']],filtered_data.y)
 #print(mdl.coef_)
