@@ -62,11 +62,15 @@ int main () {
     ifstream TP("TimevsPrice.txt");
     ofstream IP("fip.txt");
     ofstream TEST("fop.txt");
+    IP << "Bias,Time,Airport,Altamount,Vashi,Virar,Mallc,Hospc" <<  endl;
+    TEST << "OUT" << endl;
 
     while(TP >> id){
-        TP >> q >> p;
-        IP << q << "," << Airport[id] << "," << Altamount[id] << "," << Vashi[id] << "," << Virar[id] << "," << Mallc[id] << "," << Hospc[id] <<  endl;
-        TEST << p << endl;
+        if(q<29){
+            TP >> q >> p;
+            IP << "1," << q+1 << "," << Airport[id] << "," << Altamount[id] << "," << Vashi[id] << "," << Virar[id] << "," << Mallc[id] << "," << Hospc[id] <<  endl;
+            TEST << p << endl;
+        }
         //if(id==348)
           //  vw  << q << " " << Airport[id] << " " << Altamount[id] << " " << Vashi[id] << " " << Virar[id]  << " " << Mallc[id] << " " << p << endl;
 

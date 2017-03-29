@@ -60,20 +60,21 @@ int main () {
     }
 
     ifstream TP("TimevsPrice.txt");
-    ofstream TEST("ftest.csv");
+    ofstream TEST("ftest.txt");
+    ofstream FT("fto.txt");
+
+    TEST << "Bias,Time,Airport,Altamount,Vashi,Virar,Mallc,Hospc" <<  endl;
+    FT << "OUT" << endl;
 
     while(TP >> id){
         TP >> q >> p;
 
         if(q==29){
-            TEST << q+1 << "," << Airport[id] << "," << Altamount[id] << "," << Vashi[id] << "," << Virar[id] << "," << Mallc[id] << "," << Hospc[id] <<  endl;
+            TEST << "1," << q+1 << "," << Airport[id] << "," << Altamount[id] << "," << Vashi[id] << "," << Virar[id] << "," << Mallc[id] << "," << Hospc[id] <<  endl;
            // TEST << q+2 << "," << Airport[id] << "," << Altamount[id] << "," << Vashi[id] << "," << Virar[id] << "," << Mallc[id] << "," << Hospc[id] <<  endl;
             // TEST << q+3 << "," << Airport[id] << "," << Altamount[id] << "," << Vashi[id] << "," << Virar[id] << "," << Mallc[id] << "," << Hospc[id] <<  endl;
-
+            FT << p << endl;
         }
-        //if(id==348)
-          //  vw  << q << " " << Airport[id] << " " << Altamount[id] << " " << Vashi[id] << " " << Virar[id]  << " " << Mallc[id] << " " << p << endl;
-
     }
 
     return 0;

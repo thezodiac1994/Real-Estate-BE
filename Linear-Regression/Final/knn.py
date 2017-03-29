@@ -1,15 +1,37 @@
 import numpy as np
 import pandas as pd
-from sklearn.ensemble import RandomForestRegressor
+from sklearn.neighbors import KNeighborsRegressor
 import matplotlib.pyplot as plt
 plt.interactive(False)
+'''
+def distance (data1,data2) :
+    dist = 0
+    for i in range (0,6): # params
+        dist = dist + (data1[i] -  data2[i])*(data1[i] - data2[i])
+    return sqrt (dist)
 
+def _predict (data) :
+    vector < pair  <int,int>> dist  # distance and index
+    for i in range(0,1026)
+        dist[i].first = distance (mdl[i],data)
+        dist[i].second = i
+
+    sort (dist.begin(), dist.end())
+    ans = 0
+
+    for i in range (0,mdl.k)
+        ans = ans + mdl.value(dist[i].second)
+
+    return ans/mdl.k
+'''
 ipdata = pd.read_csv("fip.csv") #any dataset will work.
 opdata = pd.read_csv("fop.csv")
+
 X = ipdata[:]
 Y = opdata[:]
 
-mdl = RandomForestRegressor(25).fit(X,Y) # either this or the next line
+mdl = KNeighborsRegressor(2)
+mdl.fit(X,Y) # either this or the next line
 #mdl = LinearRegression().fit(filtered_data[['x']],filtered_data.y)
 #print(mdl.coef_)
 #m = mdl.coef_
@@ -18,15 +40,16 @@ mdl = RandomForestRegressor(25).fit(X,Y) # either this or the next line
 #print("\nT = time,\nD1 = distance from Altamount Road,\nD2 = Distance from Airport")
 
 
-tipdata = pd.read_csv("ftest.csv") #any dataset will work.
-tX = tipdata[:]
-tipdata = pd.read_csv("fto.csv") #any dataset will work.
-tY = tipdata[:]  #any dataset will work.
-print(mdl.score(tX,tY))
+
+
+
+#print(mdl.score(tX,tY))
+#print(mdl.score(X,Y))
+
 
 #ipdata2 = pd.read_csv("traininp2.csv") #any dataset will work.
-##opdata2 = pd.read_csv("trainop2.csv")
-#X2 = ipdata2[:]
+#opdata2 = pd.read_csv("trainop2.csv")
+#X2 = ipdata2[:]ol
 #Y2 = opdata2[:]
 
 #tipdata2 = pd.read_csv("testinp2.csv") #any dataset will work.
@@ -35,7 +58,8 @@ print(mdl.score(tX,tY))
 #tY2 = topdata2[:]
 
 
-#mdl2 = RandomForestRegressor().fit(X2,Y2);
+#mdl2 = KNeighborsRegressor(5);
+#mdl2.fit(X2,Y2);
 
 #print(mdl2.score(tX2,tY2))
 #print(mdl2.score(X2,Y2))
@@ -47,12 +71,8 @@ print(mdl.score(tX,tY))
 #plt.xlabel('Quarter (0 = 2009-Q1, 40 = 2022-Q2)', fontsize = 15)
 #plt.ylabel('rs/sq.ft', fontsize = 15)
 #plt.show()
-hy = mdl.predict(tX)
-f = open('myfile', 'w')
-f.write('hi there\n')
-for i in range(0,len(hy)):
-    f.write(str(hy[i]))
-    f.write("\n")
+
+
 
 tipdata = pd.read_csv("vasai_test.csv") #any dataset will work.
 tX = tipdata[:]
