@@ -21,22 +21,21 @@
 		
 		<script type="text/javascript">
 		// graph() function
-			
-			
-				
-			function graph(canvasarea) {
-				var canvas ;
+			var canvas ;
 			var context ;
 			var Val_max;
 			var Val_min;
 			var sections;
 			var xScale;
 			var yScale;
+			
+				
+			function graph(canvasarea) {
 				
 			
 				var e = document.getElementById("areas");
 				var area_name = e.options[e.selectedIndex].text;
-				alert(area_name);
+				//alert(area_name);
 				//document.write(area_name);
 				
 				/*if(area_name=="Airoli"){
@@ -48,6 +47,7 @@
 					var xaxis=[" ","2013 Jul-Sep","2013 Oct-Dec","2014 Jan-Mar","2014 Apr-Jun","2014 Jul-Sep","2014 Oct-Dec","2015 Jan-Mar","2015 Apr-Jun","2015 Jul-Sep","2015 Oct-Dec","2016 Jan-Mar","2016 Apr-Jun","2016 Jul-Sep","2016 Oct-Dec","2017 Jan-Mar","2017 Apr-Jun"];
 				}
 				*/
+			
 				if(area_name== "Airoli"){
 					var yaxis=[3145,3315,3230,3740,3655,3782,4250,4717,5015,5355,5525,5610,5822,6162,6247,6460,6587,6800,6970,7182,7437,7650,7565,7947,8627,8840,8542,8882,8840,9137];
 					var xaxis=[,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29];
@@ -1468,6 +1468,8 @@
 					var yaxis=[4845,4462,4462,4802,4734,4787.12];
 					var xaxis=[,25,26,28,29,30,31];
 				}
+				
+				
 
 				
 				
@@ -1477,25 +1479,28 @@
 				// set these values for your data 
 				sections = yaxis.length;
 				//document.write(Math.max.apply(Math,yaxis));
-				Val_max = Math.max.apply(null,yaxis);//4845
+				Val_max = Math.max.apply(null,yaxis);
 				Val_max=Math.ceil(Val_max/1000)*1000;
-				Val_min = Math.min.apply(null,yaxis);//4462
+				Val_min = Math.min.apply(null,yaxis);
 				Val_min=Math.floor(Val_min/1000)*1000;
 				
 				var stepSize = (Val_max-Val_min)/10;
-				var columnSize = 90;
+				var columnSize = 80;
 				var rowSize = 50;
 				var margin = 0;
+				//alert(sections);
 					
 					
 				canvas = document.getElementById(canvasarea);
 				context = canvas.getContext("2d");
-				context.clearRect(0, 0, canvas.width, canvas.height);
+				
+
+				context.canvas.width = context.canvas.width;
 				
 				context.fillStyle = "#0099ff";
+				context.font = "12px Verdana";
+				context.fillText(area_name,10,11);
 				context.font = "10px Verdana";
-				context.fillText(area_name,8,8);
-				
 				
 				
 				
@@ -1503,7 +1508,7 @@
 				xScale = (canvas.width - rowSize) / sections;
 				
 				context.strokeStyle="#009933"; // color of grid lines
-				context.beginPath();
+				
 				
 
 				// print Parameters on X axis, and grid lines on the graph
@@ -1513,8 +1518,7 @@
 						var x= x+xScale;
 
 					}
-			//		document.write(x);
-				//	document.write(" ");
+
 					//context.fillText(xaxis[i], x,columnSize - margin);
 					
 					
@@ -1583,6 +1587,7 @@
 							<nav id="nav">
 								<ul>
 									<li><a href="index.html">Welcome</a></li>
+									<!--
 									<li>
 										<a href="#">Dropdown</a>
 										<ul>
@@ -1600,6 +1605,7 @@
 											<li><a href="#">Veroeros feugiat</a></li>
 										</ul>
 									</li>
+									-->
 									<li class="current"><a href="left-sidebar.html">Prediction</a></li>
 									<li><a href="right-sidebar.html">Current Price</a></li>
 									<li><a href="no-sidebar.html">No Sidebar</a></li>
@@ -1622,19 +1628,16 @@
 											<p>This prediction is based on a Machine Learning algorithm named Random Forest algorithm which is 
 											giving us the minimum error rate</p>
 											<footer>
-												<a href="#" class="button icon fa-info-circle">Find out more</a>
+												<a href="https://en.wikipedia.org/wiki/Machine_learning" class="button icon fa-info-circle">Find out more</a>
 											</footer>
 										</section>
 
 										<section>
-											<h3>Subheading</h3>
+											<h3>Algorithms </h3>
 											<ul class="style2">
-												<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-												<li><a href="#">Ornare in hendrerit in lectus</a></li>
-												<li><a href="#">Semper mod quis eget mi dolore</a></li>
-												<li><a href="#">Quam turpis feugiat sit dolor</a></li>
-												<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-												<li><a href="#">Semper mod quisturpis nisi</a></li>
+												<li><a href="https://en.wikipedia.org/wiki/Linear_regression">Linear Regression</a></li>
+												<li><a href="https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm">K-Nearest Neighbors</a></li>
+												<li><a href="https://en.wikipedia.org/wiki/Random_forest">Random Forest Algorithm</a></li>
 											</ul>
 										</section>
 
@@ -2030,7 +2033,7 @@
 													
 													
 													<hr>
-													<div class="cols pad_left1"> <button onclick="graph('canvas')" type="button">Price</button> </div>
+													<div class="cols pad_left1"> <button onclick="graph('canvas')" type="button">See Trends</button> </div>
 													
 												  <br><br>
 											
