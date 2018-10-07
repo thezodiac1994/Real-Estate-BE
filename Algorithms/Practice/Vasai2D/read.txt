@@ -1,0 +1,1 @@
+This is a simple 2d LR model of time vs rs/sq.ft for vasai that has been committed in the official log book in the college.
